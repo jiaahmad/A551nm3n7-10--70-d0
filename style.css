@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: #111;
+    box-sizing: border-box;
+}
+
+h1 {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 1rem 0 3rem; 
+	font-family: 'Righteous', cursive;
+}
+
+
+.title{
+	color: rgb(35, 163, 163);
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+
+.add{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: rgb(35, 163, 163);
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+.dlt{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: rgb(35, 163, 163);
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+ 
+.add:hover{
+	opacity: 0.7;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.item{
+	padding: 0.5rem;
+	border-bottom: 4px solid #fff;
+	margin-bottom: 1.5rem;
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 1.4rem;
+	width: 245px;
+}
+
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+	color: rgb(35, 163, 163);
+	font-size: 1.4rem;
+	font-family: 'Righteous', cursive;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+	color: brown;
+	font-size: 1.4rem;
+	font-family: 'Righteous', cursive;
+	cursor: pointer;
+}
+footer {
+	background: #222;
+	color: #aaa;
+	padding-top: 10px;
+  }
+  
+  footer a {
+	color: #aaa;
+  }
+  
+  footer a:hover {
+	color: #fff;
+  }
+  
+  footer h3 {
+   color: #0894d1;
+	letter-spacing: 1px;
+	margin: 30px 0 20px;
+  }
+  
+  footer .three-column {
+   overflow: hidden;
+  }
+  
+  footer .three-column li{
+   width: 33.3333%;
+	float: left;
+	padding: 5px 0;
+  }
+  
+  footer .socila-list {
+	overflow: hidden;
+	margin: 20px 0 10px;
+  }
+  
+  footer .socila-list li {
+	float: left;
+	margin-right: 3px;
+	opacity: 0.7;
+	overflow: hidden;
+	border-radius: 50%;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  
+  
+  
+  footer .copyright {
+	padding: 15px 0;
+	background: #333;
+	margin-top: 20px;
+	font-size: 15px;
+  }
+  
+  footer .copyright span {
+	color: #92c5db;
+  }
